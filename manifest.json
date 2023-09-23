@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Viewer",
+    "version": "1.0",
+    "description": "A simple Chrome extension to display the current tab's title",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "search-icon.png",
+        "48": "search-icon.png",
+        "128": "search-icon.png"
+      }
+    },
+    "icons": {
+      "16": "search-icon.png",
+      "48": "search-icon.png",
+      "128": "search-icon.png"
+    }
+  }
